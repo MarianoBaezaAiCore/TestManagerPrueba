@@ -1,7 +1,7 @@
-@Feature
+@Feature @LTM_1ae463b4-63b8-4139-9907-d9357e734ead
 Feature: scenariooutline
 
-  @Smoke 
+  @Smoke @LTM_76bf77c8-e588-473a-9044-33432d465ec1
   Scenario Outline: 
     Given The client is in google page
     When The client search for word <word>
@@ -28,7 +28,7 @@ Feature: scenariooutline
       | vagrant  |
       | cucumber |
 
-  @Smoke 
+  @Smoke @LTM_8d17d537-63b1-4acc-a712-53ea7cf54b42
   Scenario: The client search by "lippia"
     Given The client is in google page
     When The client search for word lippia
