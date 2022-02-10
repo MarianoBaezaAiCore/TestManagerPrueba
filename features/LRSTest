@@ -1,0 +1,13 @@
+@Feature 
+Feature: feature 1
+
+  @Smoke 
+  Scenario Outline: The client search by "<word>" scenario 1
+    Given The client is in google page
+    When The client search for word <word>
+    Then The client verify that results are shown properly
+
+  @crowdar
+    Examples: 
+      | word    |
+      | crowdar |
